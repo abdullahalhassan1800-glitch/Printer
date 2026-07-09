@@ -1,0 +1,30 @@
+title: Printer & Services
+description: Professional printer online support services for HP, EPSON, BROTHER, and CANON printers across the USA.
+baseurl: "/Printer"
+url: "https://abdullahalhassan1800-glitch.github.io"
+
+permalink: /blog/:title/
+
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      permalink: /blog/:title/
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+      footer_variant: "legal"
+
+plugins:
+  - jekyll-feed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - .gitignore
+  - pages-body.json

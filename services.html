@@ -1,13 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Our Services | Printer & Services - HP, EPSON, BROTHER, CANON Support USA</title>
-  <meta name="description" content="Professional printer online support services for HP, EPSON, BROTHER, and CANON. Troubleshooting, driver installation, network setup, and error code resolution across USA.">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+---
+layout: default
+title: "Our Services | Printer & Services - HP, EPSON, BROTHER, CANON Support USA"
+description: "Professional printer online support services for HP, EPSON, BROTHER, and CANON. Troubleshooting, driver installation, network setup, and error code resolution across USA."
+footer_variant: full
+footer_brand_data: true
+schema: |
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -65,363 +62,168 @@
     ]
   }
   </script>
-</head>
-<body>
-  <header>
-    <div class="container">
-      <a href="index.html" class="logo"><img src="images/logo.svg" alt="Printer & Services"></a>
-      <nav>
-        <button class="hamburger" aria-label="Menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="services.html" class="active">Services</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li><a href="contact.html">Contact</a></li>
-          <li><div class="header-support"><i class="fas fa-clock"></i> 24X7 <span>Support</span></div></li>
-        </ul>
-      </nav>
+---
+
+<section class="page-hero">
+  <div class="container">
+    <h1>Our Services</h1>
+    <p>Professional printer support for HP, EPSON, BROTHER &amp; CANON</p>
+  </div>
+</section>
+
+<section class="brand-tabs-section">
+  <div class="container">
+    <div class="brand-tabs">
+      <button class="brand-tab active" data-brand="hp">
+        <img src="{{ site.baseurl }}/images/brand-hp.jpg" alt="HP" class="brand-tab-img"> HP
+      </button>
+      <button class="brand-tab" data-brand="epson">
+        <img src="{{ site.baseurl }}/images/brand-epson.jpg" alt="EPSON" class="brand-tab-img"> EPSON
+      </button>
+      <button class="brand-tab" data-brand="brother">
+        <img src="{{ site.baseurl }}/images/brand-brother.jpg" alt="BROTHER" class="brand-tab-img"> BROTHER
+      </button>
+      <button class="brand-tab" data-brand="canon">
+        <img src="{{ site.baseurl }}/images/brand-canon.jpg" alt="CANON" class="brand-tab-img"> CANON
+      </button>
     </div>
-  </header>
+  </div>
+</section>
 
-  <section class="page-hero">
-    <div class="container">
-      <h1>Our Services</h1>
-      <p>Professional printer support for HP, EPSON, BROTHER &amp; CANON</p>
-    </div>
-  </section>
+<section class="services-section" id="services-section">
+  <div class="container">
+    {% assign brands = "hp|epson|brother|canon" | split: "|" %}
+    {% assign brand_names = "HP|EPSON|BROTHER|CANON" | split: "|" %}
+    {% assign brand_titles = "HP Printer Support Services|EPSON Printer Support Services|BROTHER Printer Support Services|CANON Printer Support Services" | split: "|" %}
+    {% assign brand_descs = "Professional remote assistance for every HP printer issue|Expert remote assistance for all EPSON printer models|Reliable remote support for BROTHER printers|Professional remote assistance for all CANON printer models" | split: "|" %}
 
-  <section class="brand-tabs-section">
-    <div class="container">
-      <div class="brand-tabs">
-        <button class="brand-tab active" data-brand="hp">
-          <img src="images/brand-hp.jpg" alt="HP" class="brand-tab-img"> HP
-        </button>
-        <button class="brand-tab" data-brand="epson">
-          <img src="images/brand-epson.jpg" alt="EPSON" class="brand-tab-img"> EPSON
-        </button>
-        <button class="brand-tab" data-brand="brother">
-          <img src="images/brand-brother.jpg" alt="BROTHER" class="brand-tab-img"> BROTHER
-        </button>
-        <button class="brand-tab" data-brand="canon">
-          <img src="images/brand-canon.jpg" alt="CANON" class="brand-tab-img"> CANON
-        </button>
-      </div>
-    </div>
-  </section>
-
-  <section class="services-section" id="services-section">
-    <div class="container">
-      <div class="brand-panel active" data-brand="hp">
-        <div class="brand-banner">
-          <img src="images/hp-banner.jpg" alt="HP Printer Support" class="brand-banner-img">
-          <div class="brand-banner-overlay">
-            <h2>HP Printer Support Services</h2>
-            <p>Professional remote assistance for every HP printer issue</p>
-          </div>
-        </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-tools"></i></div>
-            <h3>HP Printer Troubleshooting</h3>
-            <p>Remote diagnosis and fixing of printer errors, paper jams, connectivity issues, and hardware malfunctions.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-download"></i></div>
-            <h3>Driver Installation</h3>
-            <p>Correct driver identification, download, and installation for any HP printer model on Windows and Mac.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-wifi"></i></div>
-            <h3>Wireless & Network Setup</h3>
-            <p>Professional HP printer WiFi configuration, network connection setup, and troubleshooting connectivity.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-exclamation-triangle"></i></div>
-            <h3>Error Code Resolution</h3>
-            <p>Fix all HP printer error codes including offline status, cartridge errors, and system failures.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-image"></i></div>
-            <h3>Print Quality Fixes</h3>
-            <p>Resolve faded prints, streaks, lines, blurry output, and other print quality problems.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-cogs"></i></div>
-            <h3>Printer Configuration</h3>
-            <p>Complete setup and configuration including scanner setup, fax configuration, and advanced settings.</p>
-          </div>
+    {% for brand in brands %}
+    {% assign idx = forloop.index0 %}
+    <div class="brand-panel{% if idx == 0 %} active{% endif %}" data-brand="{{ brand }}">
+      <div class="brand-banner">
+        <img src="{{ site.baseurl }}/images/{{ brand }}-banner.jpg" alt="{{ brand_names[idx] }} Printer Support" class="brand-banner-img">
+        <div class="brand-banner-overlay">
+          <h2>{{ brand_titles[idx] }}</h2>
+          <p>{{ brand_descs[idx] }}</p>
         </div>
       </div>
-
-      <div class="brand-panel" data-brand="epson">
-        <div class="brand-banner">
-          <img src="images/epson-banner.jpg" alt="EPSON Printer Support" class="brand-banner-img">
-          <div class="brand-banner-overlay">
-            <h2>EPSON Printer Support Services</h2>
-            <p>Expert remote assistance for all EPSON printer models</p>
-          </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="icon-wrap"><i class="fas fa-tools"></i></div>
+          <h3>{{ brand_names[idx] }} Printer Troubleshooting</h3>
+          <p>Remote diagnosis and fixing of printer errors, paper jams, connectivity issues, and hardware malfunctions for {{ brand_names[idx] }} printers.</p>
         </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-tools"></i></div>
-            <h3>EPSON Printer Troubleshooting</h3>
-            <p>Expert diagnosis and repair of EPSON printer errors including paper jams, ink system issues, and hardware faults.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-download"></i></div>
-            <h3>Driver & Software Installation</h3>
-            <p>Proper driver setup for all EPSON models including WorkForce, EcoTank, SureColor, and Expression series.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-wifi"></i></div>
-            <h3>EPSON Wireless Setup</h3>
-            <p>Professional WiFi and network configuration for EPSON printers including WPS and EpsonNet setup.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-exclamation-triangle"></i></div>
-            <h3>Error Code Fixes</h3>
-            <p>Resolve common EPSON error codes like 0x97, 0x9A, ink pad warning, and service required errors.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-image"></i></div>
-            <h3>Print Quality Issues</h3>
-            <p>Fix banding, color misalignment, faded prints, nozzle clogs, and other EPSON print quality problems.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-cogs"></i></div>
-            <h3>EcoTank & Ink System Support</h3>
-            <p>Complete EPSON EcoTank setup, ink charging, resetting, and maintenance for refillable ink systems.</p>
-          </div>
+        <div class="service-card">
+          <div class="icon-wrap"><i class="fas fa-download"></i></div>
+          <h3>Driver & Software Installation</h3>
+          <p>Correct driver identification, download, and installation for any {{ brand_names[idx] }} printer model on Windows and Mac.</p>
         </div>
-      </div>
-
-      <div class="brand-panel" data-brand="brother">
-        <div class="brand-banner">
-          <img src="images/brother-banner.jpg" alt="BROTHER Printer Support" class="brand-banner-img">
-          <div class="brand-banner-overlay">
-            <h2>BROTHER Printer Support Services</h2>
-            <p>Reliable remote support for BROTHER printers</p>
-          </div>
+        <div class="service-card">
+          <div class="icon-wrap"><i class="fas fa-wifi"></i></div>
+          <h3>Wireless & Network Setup</h3>
+          <p>Professional {{ brand_names[idx] }} printer WiFi configuration, network connection setup, and troubleshooting connectivity issues.</p>
         </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-tools"></i></div>
-            <h3>BROTHER Printer Troubleshooting</h3>
-            <p>Remote diagnosis of BROTHER printer issues including paper jams, drum errors, toner problems, and connectivity faults.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-download"></i></div>
-            <h3>Driver Installation</h3>
-            <p>Correct driver setup for BROTHER printers including HL, MFC, DCP, and FAX series on all operating systems.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-wifi"></i></div>
-            <h3>Wireless Network Setup</h3>
-            <p>BROTHER printer WiFi configuration via WPS, BRAdmin Light, and manual network settings for reliable printing.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-exclamation-triangle"></i></div>
-            <h3>Toner & Drum Errors Fixed</h3>
-            <p>Resolve BROTHER toner low, toner reset, drum error, and replace drum messages with remote guidance.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-image"></i></div>
-            <h3>Print & Scan Quality</h3>
-            <p>Fix faded prints, vertical lines, streaks, and scanning problems on BROTHER all-in-one printers.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-cogs"></i></div>
-            <h3>Brother Printer Configuration</h3>
-            <p>Complete configuration including network settings, scan-to-email, fax setup, and advanced features.</p>
-          </div>
+        <div class="service-card">
+          <div class="icon-wrap"><i class="fas fa-exclamation-triangle"></i></div>
+          <h3>Error Code Resolution</h3>
+          <p>Fix all {{ brand_names[idx] }} printer error codes including offline status, cartridge errors, and system failures.</p>
         </div>
-      </div>
-
-      <div class="brand-panel" data-brand="canon">
-        <div class="brand-banner">
-          <img src="images/canon-banner.jpg" alt="CANON Printer Support" class="brand-banner-img">
-          <div class="brand-banner-overlay">
-            <h2>CANON Printer Support Services</h2>
-            <p>Professional remote assistance for all CANON printer models</p>
-          </div>
+        <div class="service-card">
+          <div class="icon-wrap"><i class="fas fa-image"></i></div>
+          <h3>Print Quality Fixes</h3>
+          <p>Resolve faded prints, streaks, lines, blurry output, and other print quality problems on {{ brand_names[idx] }} printers.</p>
         </div>
-        <div class="services-grid">
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-tools"></i></div>
-            <h3>CANON Printer Troubleshooting</h3>
-            <p>Professional remote diagnosis for CANON PIXMA, MAXIFY, imagePROGRAF, and Selphy printer issues.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-download"></i></div>
-            <h3>Driver Software Setup</h3>
-            <p>Installation of correct CANON drivers, IJ Scan Utility, and My Image Garden software for full functionality.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-wifi"></i></div>
-            <h3>Wireless LAN Setup</h3>
-            <p>CANON printer WiFi configuration using WPS, Canon PRINT app, and manual wireless LAN setup wizard.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-exclamation-triangle"></i></div>
-            <h3>Error Code Support</h3>
-            <p>Fix CANON error codes including B200, P07, 5B00, 5200, and ink absorber full warnings.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-image"></i></div>
-            <h3>Print Quality Fixes</h3>
-            <p>Resolve CANON print head issues, banding, color problems, blurry prints, and nozzle check failures.</p>
-          </div>
-          <div class="service-card">
-            <div class="icon-wrap"><i class="fas fa-cogs"></i></div>
-            <h3>CANON Printer Configuration</h3>
-            <p>Advanced setup including scanner configuration, fax setup, cloud printing, and PIXMA maintenance.</p>
-          </div>
+        <div class="service-card">
+          <div class="icon-wrap"><i class="fas fa-cogs"></i></div>
+          <h3>Printer Configuration</h3>
+          <p>Complete setup and configuration including scanner setup, fax configuration, and advanced settings for {{ brand_names[idx] }} printers.</p>
         </div>
       </div>
     </div>
-  </section>
+    {% endfor %}
+  </div>
+</section>
 
-  <section class="faq-section">
-    <div class="container">
-      <div class="section-header">
-        <h2>Service Questions</h2>
-        <p>Everything you need to know about our printer support</p>
-        <div class="accent-line"></div>
+<section class="faq-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Service Questions</h2>
+      <p>Everything you need to know about our printer support</p>
+      <div class="accent-line"></div>
+    </div>
+    <div class="faq-list">
+      <div class="faq-item">
+        <button class="faq-question">How do you troubleshoot my printer remotely?</button>
+        <div class="faq-answer">We connect to your computer via a secure remote session. Our technician diagnoses the issue using specialized tools, checks printer settings, drivers, and network configuration, and resolves the problem step by step with your permission. You can see everything we do. We support all major brands including HP, EPSON, BROTHER, and CANON.</div>
       </div>
-      <div class="faq-list">
-        <div class="faq-item">
-          <button class="faq-question">How do you troubleshoot my printer remotely?</button>
-          <div class="faq-answer">We connect to your computer via a secure remote session. Our technician diagnoses the issue using specialized tools, checks printer settings, drivers, and network configuration, and resolves the problem step by step with your permission. You can see everything we do. We support all major brands including HP, EPSON, BROTHER, and CANON.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Can you install printer drivers remotely?</button>
-          <div class="faq-answer">Yes. We identify the correct driver for your specific printer model and operating system, download it from the official manufacturer website, and install it on your computer remotely. We also ensure the printer is properly configured after installation.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">How long does printer error code resolution take?</button>
-          <div class="faq-answer">Most printer error codes are resolved within 15-20 minutes remotely. Common errors like offline status, driver issues, cartridge errors, and system failures are typically fixed quickly by our experienced technicians across all brands.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Do you support all EPSON printer models?</button>
-          <div class="faq-answer">Yes, we support all EPSON models including WorkForce, EcoTank, SureColor, Expression, and Artisan series. Our technicians are trained to handle EPSON-specific issues like ink pad warnings, nozzle clogs, and error codes.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">Can you fix BROTHER toner and drum errors?</button>
-          <div class="faq-answer">Absolutely. We specialize in BROTHER printer toner and drum-related issues. We can guide you through toner reset, drum cleaning, replacing the drum unit, and resetting the toner counter remotely.</div>
-        </div>
-        <div class="faq-item">
-          <button class="faq-question">How do I reset my CANON printer after an error?</button>
-          <div class="faq-answer">CANON printer resets vary by error type and model. Common resets include ink absorber reset, service mode reset, and factory reset. Our technicians can guide you through the exact procedure for your specific CANON model safely.</div>
-        </div>
+      <div class="faq-item">
+        <button class="faq-question">Can you install printer drivers remotely?</button>
+        <div class="faq-answer">Yes. We identify the correct driver for your specific printer model and operating system, download it from the official manufacturer website, and install it on your computer remotely. We also ensure the printer is properly configured after installation.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How long does printer error code resolution take?</button>
+        <div class="faq-answer">Most printer error codes are resolved within 15-20 minutes remotely. Common errors like offline status, driver issues, cartridge errors, and system failures are typically fixed quickly by our experienced technicians across all brands.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Do you support all EPSON printer models?</button>
+        <div class="faq-answer">Yes, we support all EPSON models including WorkForce, EcoTank, SureColor, Expression, and Artisan series. Our technicians are trained to handle EPSON-specific issues like ink pad warnings, nozzle clogs, and error codes.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">Can you fix BROTHER toner and drum errors?</button>
+        <div class="faq-answer">Absolutely. We specialize in BROTHER printer toner and drum-related issues. We can guide you through toner reset, drum cleaning, replacing the drum unit, and resetting the toner counter remotely.</div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-question">How do I reset my CANON printer after an error?</button>
+        <div class="faq-answer">CANON printer resets vary by error type and model. Common resets include ink absorber reset, service mode reset, and factory reset. Our technicians can guide you through the exact procedure for your specific CANON model safely.</div>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <section class="reviews">
-    <div class="container">
-      <div class="section-header">
-        <h2>What Our Customers Say</h2>
-        <p>Trusted by hundreds of printer owners across the USA</p>
-        <div class="accent-line"></div>
+<section class="reviews">
+  <div class="container">
+    <div class="section-header">
+      <h2>What Our Customers Say</h2>
+      <p>Trusted by hundreds of printer owners across the USA</p>
+      <div class="accent-line"></div>
+    </div>
+    <div class="reviews-grid">
+      <div class="review-card">
+        <div class="avatar"><img src="{{ site.baseurl }}/images/reviews/review-1.jpg" alt="John D."></div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+        </div>
+        <p>"My HP printer went offline and I couldn't fix it. They resolved it remotely in under 10 minutes. Amazing service!"</p>
+        <h4>John D.</h4>
+        <span>New York, NY</span>
       </div>
-      <div class="reviews-grid">
-        <div class="review-card">
-          <div class="avatar"><img src="images/reviews/review-1.jpg" alt="John D."></div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"My HP printer went offline and I couldn't fix it. They resolved it remotely in under 10 minutes. Amazing service!"</p>
-          <h4>John D.</h4>
-          <span>New York, NY</span>
+      <div class="review-card">
+        <div class="avatar"><img src="{{ site.baseurl }}/images/reviews/review-2.jpg" alt="Sarah M."></div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
-        <div class="review-card">
-          <div class="avatar"><img src="images/reviews/review-2.jpg" alt="Sarah M."></div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"Had trouble setting up my new HP printer on WiFi. The technician walked me through everything step by step. Very patient and knowledgeable."</p>
-          <h4>Sarah M.</h4>
-          <span>Houston, TX</span>
+        <p>"Had trouble setting up my new HP printer on WiFi. The technician walked me through everything step by step. Very patient and knowledgeable."</p>
+        <h4>Sarah M.</h4>
+        <span>Houston, TX</span>
+      </div>
+      <div class="review-card">
+        <div class="avatar"><img src="{{ site.baseurl }}/images/reviews/review-3.jpg" alt="Mike R."></div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
-        <div class="review-card">
-          <div class="avatar"><img src="images/reviews/review-3.jpg" alt="Mike R."></div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"Best printer support in the USA. They fixed my HP error code 0x83 in minutes. Professional and affordable. Highly recommended!"</p>
-          <h4>Mike R.</h4>
-          <span>Miami, FL</span>
+        <p>"Best printer support in the USA. They fixed my HP error code 0x83 in minutes. Professional and affordable. Highly recommended!"</p>
+        <h4>Mike R.</h4>
+        <span>Miami, FL</span>
+      </div>
+      <div class="review-card">
+        <div class="avatar"><img src="{{ site.baseurl }}/images/reviews/review-4.jpg" alt="Lisa K."></div>
+        <div class="stars">
+          <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
         </div>
-        <div class="review-card">
-          <div class="avatar"><img src="images/reviews/review-4.jpg" alt="Lisa K."></div>
-          <div class="stars">
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-            <i class="fas fa-star"></i>
-          </div>
-          <p>"My HP printer wasn't printing clearly. They diagnosed the issue remotely and fixed it immediately. Great experience!"</p>
-          <h4>Lisa K.</h4>
-          <span>Los Angeles, CA</span>
-        </div>
+        <p>"My HP printer wasn't printing clearly. They diagnosed the issue remotely and fixed it immediately. Great experience!"</p>
+        <h4>Lisa K.</h4>
+        <span>Los Angeles, CA</span>
       </div>
     </div>
-  </section>
-
-  <footer>
-    <div class="container">
-      <div class="footer-grid">
-        <div class="footer-col">
-          <h4>Printer &amp; Services</h4>
-          <p>Your trusted partner for professional printer online support services across the USA. We provide fast, reliable remote assistance for HP, EPSON, BROTHER, and CANON printers.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Quick Links</h4>
-          <a href="index.html">Home</a>
-          <a href="about.html">About Us</a>
-          <a href="services.html">Services</a>
-          <a href="blog.html">Blog</a>
-          <a href="contact.html">Contact</a>
-        </div>
-        <div class="footer-col">
-          <h4>Brands We Support</h4>
-          <a href="services.html" class="brand-link" data-brand="hp">HP Printers</a>
-          <a href="services.html" class="brand-link" data-brand="epson">EPSON Printers</a>
-          <a href="services.html" class="brand-link" data-brand="brother">BROTHER Printers</a>
-          <a href="services.html" class="brand-link" data-brand="canon">CANON Printers</a>
-        </div>
-        <div class="footer-col">
-          <h4>Contact Info</h4>
-          <p><i class="fas fa-phone"></i> +1 (800) 123-4567</p>
-          <p><i class="fas fa-envelope"></i> info@printerandservices.com</p>
-          <p><i class="fas fa-map-marker-alt"></i> USA</p>
-          <p><i class="fas fa-clock"></i> Mon-Sun 8AM-10PM EST</p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 Printer &amp; Services. All rights reserved. | <a href="terms.html">Terms</a> | <a href="privacy.html">Privacy</a></p>
-      </div>
-    </div>
-  </footer>
-
-  <script src="js/script.js"></script>
-</body>
-</html>
+  </div>
+</section>

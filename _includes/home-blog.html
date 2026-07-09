@@ -1,0 +1,22 @@
+<section class="blog-section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Printer Help &amp; Guides</h2>
+      <p>Step-by-step guides to fix common printer issues</p>
+      <div class="accent-line"></div>
+    </div>
+    <div class="blog-section-header">
+      <a href="{{ site.baseurl }}/blog/" class="view-all">View All Guides →</a>
+    </div>
+    <div class="blog-grid">
+      {% for post in site.posts limit:3 %}
+      <a href="{{ site.baseurl }}{{ post.url }}" class="blog-card" style="text-decoration:none;color:inherit;display:block">
+        <div class="icon-wrap"><i class="fas fa-file-alt"></i></div>
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+        <span class="read-more">Read Guide →</span>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

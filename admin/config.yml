@@ -1,0 +1,26 @@
+backend:
+  name: github
+  repo: abdullahalhassan1800-glitch/Printer
+  branch: master
+  site_domain: abdullahalhassan1800-glitch.github.io
+
+publish_mode: editorial_workflow
+media_folder: "images/uploads"
+public_folder: "/Printer/images/uploads"
+
+collections:
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "_posts"
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    editor:
+      preview: true
+    fields:
+      - { label: "Title", name: "title", widget: "string", required: true }
+      - { label: "Publish Date", name: "date", widget: "datetime", required: true }
+      - { label: "Category", name: "categories", widget: "string", required: true }
+      - { label: "Featured Image", name: "image", widget: "image", required: false }
+      - { label: "Read Time (minutes)", name: "read_time", widget: "number", default: 5, value_type: "int" }
+      - { label: "Tags", name: "tags", widget: "list", required: false }
+      - { label: "Body", name: "body", widget: "markdown", required: true }
