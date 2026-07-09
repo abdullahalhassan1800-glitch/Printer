@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 280 70" width="280" height="70">
+  <defs>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a1f3d"/>
+      <stop offset="100%" stop-color="#0d47a1"/>
+    </linearGradient>
+  </defs>
+  <!-- Printer icon -->
+  <g transform="translate(8,12)">
+    <rect x="0" y="18" width="48" height="34" rx="4" fill="url(#g1)"/>
+    <rect x="6" y="24" width="36" height="16" rx="2" fill="#fff" opacity="0.9"/>
+    <rect x="10" y="27" width="10" height="3" rx="1.5" fill="url(#g1)" opacity="0.3"/>
+    <rect x="10" y="33" width="20" height="3" rx="1.5" fill="url(#g1)" opacity="0.3"/>
+    <rect x="10" y="8" width="28" height="12" rx="2" fill="#0a1f3d"/>
+    <rect x="14" y="10" width="8" height="2" rx="1" fill="#f5a623"/>
+    <rect x="14" y="14" width="20" height="2" rx="1" fill="#f5a623"/>
+    <!-- Paper output -->
+    <path d="M20,38 L20,44 Q20,46 22,46 L26,46 Q28,46 28,44 L28,38" fill="#f5a623" opacity="0.8"/>
+  </g>
+  <!-- Text -->
+  <text x="72" y="34" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800" fill="#0a1f3d">Printer</text>
+  <text x="72" y="54" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" fill="#f5a623" letter-spacing="2">&amp; Services</text>
+</svg>
