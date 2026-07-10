@@ -11,7 +11,9 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-      permalink: /blog/:title/
+future: true
+
+permalink: /blog/:title/
   - scope:
       path: ""
       type: "pages"
