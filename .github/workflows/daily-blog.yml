@@ -1,0 +1,44 @@
+name: Daily Blog Post Generator
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  generate-blog:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate new blog post
+        id: generate
+        run: |
+          python scripts/generate-blog.py 2>&1 | tee output.txt
+          echo "result=$(cat output.txt)" >> $GITHUB_OUTPUT
+
+      - name: Commit and push if new post created
+        run: |
+          git config user.name "printer-bot"
+          git config user.email "printer-bot@users.noreply.github.com"
+          git add _posts/
+          if git diff --cached --quiet; then
+            echo "No new post to commit"
+          else
+            git commit -m "Auto-generated daily blog post [skip ci]"
+            git push
+            echo "New blog post committed and pushed"
+          fi
