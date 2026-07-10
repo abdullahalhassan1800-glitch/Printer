@@ -3,6 +3,8 @@ description: Professional printer online support services for HP, EPSON, BROTHER
 baseurl: "/Printer"
 url: "https://abdullahalhassan1800-glitch.github.io"
 
+future: true
+
 permalink: /blog/:title/
 
 defaults:
@@ -11,9 +13,7 @@ defaults:
       type: "posts"
     values:
       layout: "post"
-future: true
-
-permalink: /blog/:title/
+      permalink: /blog/:title/
   - scope:
       path: ""
       type: "pages"
