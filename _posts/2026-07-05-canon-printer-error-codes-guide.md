@@ -3,7 +3,7 @@ title: "Printer Error Codes: B200, P07, 5B00 & More Explained"
 date: 2026-07-05 00:00:00 -0500
 categories: "Troubleshooting Guide"
 tags: [printer, error, b200, p07, 5b00]
-image: "/images/blog-error-codes-reference.svg"
+image: "/images/blog-canon-errors.svg"
 read_time: 8
 ---
 

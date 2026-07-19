@@ -3,7 +3,7 @@ title: "How to Fix Printer Offline Error in Windows 11 (2026 Guide)"
 date: 2026-07-08 12:00:00 -0500
 categories: "Error Fix"
 tags: [printer offline, printer not printing, printer in error state, windows 11]
-image: "/images/blog-offline-fix.svg"
+image: "/images/blog-hp-offline.svg"
 read_time: 6
 schema: |
   <script type="application/ld+json">

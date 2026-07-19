@@ -3,7 +3,7 @@ title: "Complete Printer Error Code Guide 2026"
 date: 2026-07-08 12:00:00 -0500
 categories: "Error Guide"
 tags: [printer error codes, printer troubleshooting, printer not printing]
-image: "/images/blog-error-codes.svg"
+image: "/images/blog-hp-errors.svg"
 read_time: 6
 schema: |
   <script type="application/ld+json">

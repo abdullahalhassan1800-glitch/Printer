@@ -3,7 +3,7 @@ title: "Printer Not Printing Black Ink – Causes and Fixes"
 date: 2026-07-10 00:00:00 -0500
 categories: "Troubleshooting Guide"
 tags: [printer, not, printing, black, ink]
-image: "/images/blog-black-ink.svg"
+image: "/images/blog-hp-black-ink.svg"
 read_time: 6
 ---
 

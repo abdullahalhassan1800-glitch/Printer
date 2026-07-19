@@ -3,7 +3,7 @@ title: "Printer Not Printing: Complete Fix Guide (2026)"
 date: 2026-07-07 00:00:00 -0500
 categories: "Troubleshooting Guide"
 tags: [printer, not printing, troubleshoot]
-image: "/images/blog-not-printing.svg"
+image: "/images/blog-epson-not-printing.svg"
 read_time: 7
 ---
 

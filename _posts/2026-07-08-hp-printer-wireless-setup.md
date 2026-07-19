@@ -3,7 +3,7 @@ title: "How to Connect a Printer to WiFi (Step-by-Step 2026 Guide)"
 date: 2026-07-08 12:00:00 -0500
 categories: "Setup Guide"
 tags: [printer wifi connection, wifi printer setup]
-image: "/images/blog-wifi-setup.svg"
+image: "/images/blog-hp-wifi.svg"
 read_time: 5
 schema: |
   <script type="application/ld+json">

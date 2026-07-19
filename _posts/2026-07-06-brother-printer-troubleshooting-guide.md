@@ -3,7 +3,7 @@ title: "Printer Troubleshooting: Multifunction & Laser Series Fix Guide"
 date: 2026-07-06 00:00:00 -0500
 categories: "Troubleshooting Guide"
 tags: [printer, troubleshoot]
-image: "/images/blog-troubleshoot.svg"
+image: "/images/blog-brother-troubleshoot.svg"
 read_time: 7
 ---
 
