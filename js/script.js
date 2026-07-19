@@ -18,8 +18,8 @@ document.addEventListener('DOMContentLoaded', function () {
   if (contactForm) {
     contactForm.addEventListener('submit', function (e) {
       e.preventDefault();
-      alert('Thank you for contacting us! We will get back to you shortly.');
-      this.reset();
+      const baseUrl = e.target.dataset.baseurl || '';
+      window.location.href = baseUrl + '/thank-you/';
     });
   }
 
@@ -62,6 +62,36 @@ document.addEventListener('DOMContentLoaded', function () {
       switchBrand(this.dataset.brand);
     });
   });
+
+  // Hero Carousel
+  const carouselTrack = document.querySelector('.hero-carousel-track');
+  const carouselSlides = document.querySelectorAll('.hero-carousel-slide');
+  const carouselDots = document.querySelectorAll('.carousel-dot');
+  let currentSlide = 0;
+  let carouselTimer;
+
+  function showSlide(index) {
+    carouselSlides.forEach(s => s.classList.remove('active'));
+    carouselDots.forEach(d => d.classList.remove('active'));
+    carouselSlides[index].classList.add('active');
+    carouselDots[index].classList.add('active');
+    currentSlide = index;
+  }
+
+  function nextSlide() {
+    showSlide((currentSlide + 1) % carouselSlides.length);
+  }
+
+  if (carouselSlides.length > 1) {
+    carouselTimer = setInterval(nextSlide, 3500);
+    carouselDots.forEach(dot => {
+      dot.addEventListener('click', function () {
+        clearInterval(carouselTimer);
+        showSlide(parseInt(this.dataset.index));
+        carouselTimer = setInterval(nextSlide, 3500);
+      });
+    });
+  }
 
   const urlParams = new URLSearchParams(window.location.search);
   const brandParam = urlParams.get('brand');

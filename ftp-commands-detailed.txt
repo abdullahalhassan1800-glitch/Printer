@@ -1,0 +1,97 @@
+u817827921.ftp
+S3lfm@d3
+cd /
+lcd E:\Printer\_site
+prompt
+mput feed.xml
+mput index.html
+mput logo-removebg-preview.png
+mput robots.txt
+mput sitemap.xml
+
+cd /public_html
+mkdir 404
+cd 404
+lcd E:\Printer\_site\404
+mput *
+cd ..
+
+mkdir about
+cd about
+lcd E:\Printer\_site\about
+mput *
+cd ..
+
+mkdir admin
+cd admin
+lcd E:\Printer\_site\admin
+mput *
+cd ..
+
+mkdir assets
+cd assets
+lcd E:\Printer\_site\assets
+mput *
+cd ..
+
+mkdir blog
+cd blog
+lcd E:\Printer\_site\blog
+mput *
+cd ..
+
+mkdir contact
+cd contact
+lcd E:\Printer\_site\contact
+mput *
+cd ..
+
+mkdir css
+cd css
+lcd E:\Printer\_site\css
+mput *
+cd ..
+
+mkdir images
+cd images
+lcd E:\Printer\_site\images
+mput *
+cd ..
+
+mkdir js
+cd js
+lcd E:\Printer\_site\js
+mput *
+cd ..
+
+mkdir privacy
+cd privacy
+lcd E:\Printer\_site\privacy
+mput *
+cd ..
+
+mkdir scripts
+cd scripts
+lcd E:\Printer\_site\scripts
+mput *
+cd ..
+
+mkdir services
+cd services
+lcd E:\Printer\_site\services
+mput *
+cd ..
+
+mkdir terms
+cd terms
+lcd E:\Printer\_site\terms
+mput *
+cd ..
+
+mkdir thank-you
+cd thank-you
+lcd E:\Printer\_site\thank-you
+mput *
+cd ..
+
+bye

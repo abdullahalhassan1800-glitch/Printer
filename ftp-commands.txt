@@ -1,0 +1,7 @@
+u817827921.ftp
+S3lfm@d3
+cd /
+lcd E:\Printer\_site
+prompt
+mput *
+bye

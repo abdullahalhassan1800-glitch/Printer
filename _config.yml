@@ -1,7 +1,7 @@
-title: Printer & Services
-description: Professional printer online support services for HP, EPSON, BROTHER, and CANON printers across the USA.
-baseurl: "/Printer"
-url: "https://abdullahalhassan1800-glitch.github.io"
+title: Printer Services Pro
+description: Independent printer industry analysis, enterprise printing guides, and business printing comparisons. Helping organizations choose the right printing infrastructure.
+url: "https://printerandservices.pro"
+baseurl: ""
 
 future: true
 
@@ -23,6 +23,7 @@ defaults:
 
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
 
 exclude:
   - Gemfile

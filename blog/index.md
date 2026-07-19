@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Printer Troubleshooting & Setup Guides"
-description: "Expert printer troubleshooting guides covering HP, EPSON, BROTHER, and CANON printers. Fix printer offline errors, WiFi setup issues, printer not printing problems, and common error codes."
-heading: "Printer Troubleshooting & Setup Guides"
-subtitle: "Expert guides for HP, EPSON, BROTHER, and CANON printers — fix offline errors, WiFi issues, print quality problems, and more"
+title: "Printer Industry Analysis & Guides"
+description: "Independent printer industry analysis, enterprise printing guides, and business printing comparisons. Helping IT teams choose the right printing infrastructure."
+heading: "Printer Industry Analysis & Guides"
+subtitle: "Expert industry analysis, deployment guides, and printer comparisons"
 ---

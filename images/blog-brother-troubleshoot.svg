@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1b1b3a"/>
+      <stop offset="100%" style="stop-color:#2c3e6b"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="660" cy="350" r="200" fill="#3498db" opacity="0.15"/>
+  <circle cx="140" cy="80" r="130" fill="#3498db" opacity="0.1"/>
+  <text x="400" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" fill="#3498db" font-weight="bold">BROTHER</text>
+  <text x="400" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#ffffff" opacity="0.9">Brother Printer Troubleshooting</text>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#aaa">MFC, HL, DCP Series Fix Guide</text>
+  <rect x="320" y="305" width="160" height="4" rx="2" fill="#3498db"/>
+</svg>

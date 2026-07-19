@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#2c003e"/>
+      <stop offset="100%" style="stop-color:#512b58"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#bg)"/>
+  <circle cx="700" cy="120" r="180" fill="#e84393" opacity="0.15"/>
+  <circle cx="100" cy="380" r="140" fill="#e84393" opacity="0.1"/>
+  <text x="400" y="170" text-anchor="middle" font-family="Arial,sans-serif" font-size="52" fill="#e84393" font-weight="bold">CANON</text>
+  <text x="400" y="225" text-anchor="middle" font-family="Arial,sans-serif" font-size="20" fill="#ffffff" opacity="0.9">Canon Printer Error Codes</text>
+  <text x="400" y="265" text-anchor="middle" font-family="Arial,sans-serif" font-size="16" fill="#aaa">B200, P07, 5B00 and More</text>
+  <rect x="320" y="305" width="160" height="4" rx="2" fill="#e84393"/>
+</svg>

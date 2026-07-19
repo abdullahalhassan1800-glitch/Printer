@@ -7,11 +7,11 @@ from pathlib import Path
 POSTS_DIR = Path(__file__).resolve().parent.parent / "_posts"
 
 CONTENT_TEMPLATES = {
-    "HP Printer Not Printing Black Ink – Causes and Fixes": {
-        "categories": "HP Troubleshooting",
-        "content": """Is your HP printer not printing black ink even though cartridges have ink? This is a frustratingly common issue with HP inkjet printers. Before you replace anything, try these proven solutions.
+    "Printer Not Printing Black Ink – Causes and Fixes": {
+        "categories": "Troubleshooting Guide",
+        "content": """Is your printer not printing black ink even though cartridges have ink? This is a frustratingly common issue with inkjet printers. Before you replace anything, try these proven solutions.
 
-### Why HP Printer Not Printing Black Ink Happens
+### Why Printer Not Printing Black Ink Happens
 
 The most common causes include:
 - **Clogged printhead nozzles:** Black ink dries up and blocks the nozzles when the printer sits unused.
@@ -26,7 +26,7 @@ Go to your printer's maintenance menu and run the **printhead cleaning** cycle 2
 
 ### Step 2: Check Ink Levels
 
-Open the **HP Smart app** or printer properties and verify black ink levels. If low, replace with a genuine HP cartridge. Third-party cartridges often cause this problem.
+Open your printer's companion app or printer properties and verify black ink levels. If low, replace with a genuine manufacturer cartridge. Third-party cartridges often cause this problem.
 
 ### Step 3: Use the Right Print Settings
 
@@ -38,21 +38,21 @@ If automatic cleaning doesn't work, remove the printhead and clean the copper co
 
 ### Step 5: Update Printer Drivers
 
-Outdated drivers can cause the printer to misread ink levels. Download the latest driver from HP's official website and reinstall.
+Outdated drivers can cause the printer to misread ink levels. Download the latest driver from your printer manufacturer's official website and reinstall.
 
 <div class="blog-cta">
   <h3>Still Having Black Ink Problems?</h3>
-  <p>Our certified HP printer technicians can diagnose and fix your issue remotely. Get back to printing in minutes.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Remote Support</a>
+  <p>Check your printer manufacturer's official support website for the latest drivers and troubleshooting guides for your specific printer model.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View All Printer Reviews</a>
 </div>"""
     },
-    "How to Fix EPSON Printer Error 0x97 – Mainboard Issue": {
-        "categories": "EPSON Troubleshooting",
-        "content": """EPSON printer error code 0x97 is one of the most feared errors among EPSON users. This error typically indicates a mainboard or ink system issue. Here's how to diagnose and fix it.
+    "How to Fix Printer Error 0x97 – Mainboard Issue": {
+        "categories": "Troubleshooting Guide",
+        "content": """Printer error code 0x97 is one of the most feared errors among printer users. This error typically indicates a mainboard or ink system issue. Here's how to diagnose and fix it.
 
-### What Does EPSON Error 0x97 Mean?
+### What Does Error 0x97 Mean?
 
-Error 0x97 appears on EPSON WorkForce, EcoTank, Expression, and SureColor printers. It generally means:
+Error 0x97 appears on business, tank, photo, and wide-format printers. It generally means:
 - **Mainboard failure:** The printer's main logic board has detected a fault.
 - **Ink system malfunction:** The ink pump, waste ink pad, or sensor has failed.
 - **Carriage mechanism issue:** The printhead carriage is stuck or obstructed.
@@ -65,31 +65,31 @@ Turn off the printer, unplug it from power, and wait 5 full minutes. Plug it bac
 
 Open the printer cover and check if anything is blocking the printhead carriage. Remove any paper scraps, staples, or debris. Gently move the carriage manually to ensure it moves freely.
 
-### Step 3: Run EPSON Maintenance Utility
+### Step 3: Run Your Printer's Diagnostic Tool
 
-Download and run the **EPSON Print and Scan Utility** or **EPSON Status Monitor** from your computer. Check for error details and run a head cleaning if available.
+Download and run your printer's diagnostic tool from your computer. Check for error details and run a head cleaning if available.
 
-### Step 4: Reset Using EPSON Adjustment Program
+### Step 4: Reset Using a Waste Ink Reset Tool
 
-For advanced users, the EPSON Adjustment Program (WIC Reset Utility) can reset the waste ink counter and clear error 0x97. This requires connecting the printer via USB.
+For advanced users, a waste ink reset utility can reset the waste ink counter and clear error 0x97. This requires connecting the printer via USB.
 
 ### Step 5: Check Ink System
 
 If the error persists, the waste ink pad may be full or the ink pump may be faulty. These require replacement by a technician.
 
 <div class="blog-cta">
-  <h3>EPSON Error 0x97 Not Fixed?</h3>
-  <p>Let our EPSON experts diagnose and fix the problem remotely. Fast and affordable.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Help Now</a>
+  <h3>Error 0x97 Not Fixed?</h3>
+  <p>Visit your printer manufacturer's official support site for detailed troubleshooting guides and diagnostic tools for the 0x97 error.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View All Printer Reviews</a>
 </div>"""
     },
-    "BROTHER Printer Drum Error – How to Reset and Fix": {
-        "categories": "BROTHER Troubleshooting",
-        "content": """BROTHER printer drum errors can stop you from printing completely. If you see "Drum Error," "Replace Drum," or "Drum Stop" messages, here's how to fix it.
+    "Printer Drum Error – How to Reset and Fix": {
+        "categories": "Troubleshooting Guide",
+        "content": """Printer drum errors can stop you from printing completely. If you see "Drum Error," "Replace Drum," or "Drum Stop" messages, here's how to fix it.
 
-### Understanding BROTHER Drum Errors
+### Understanding Printer Drum Errors
 
-BROTHER printers use a separate drum unit and toner cartridge. Common drum errors include:
+Laser printers use a separate drum unit and toner cartridge. Common drum errors include:
 - **Drum End Soon:** The drum is approaching its end of life.
 - **Replace Drum:** The drum counter has reached its limit.
 - **Drum Stop:** The printer has stopped functioning due to drum issues.
@@ -97,7 +97,7 @@ BROTHER printers use a separate drum unit and toner cartridge. Common drum error
 
 ### Method 1: Reset the Drum Counter
 
-Most BROTHER printers let you reset the drum counter manually:
+Most laser printers let you reset the drum counter manually:
 1. Open the front cover.
 2. Press and hold the **OK** or **Clear/Back** button for 5 seconds.
 3. Use the arrow keys to select "Reset Drum" or "Drum Reset."
@@ -110,32 +110,32 @@ Remove the drum unit and toner cartridge together. Gently clean the green drum s
 
 ### Method 3: Replace Drum Unit
 
-If cleaning and resetting don't work, the drum unit has reached its actual end of life. Replace it with a genuine BROTHER drum unit (DR series compatible with your model).
+If cleaning and resetting don't work, the drum unit has reached its actual end of life. Replace it with a genuine manufacturer drum unit compatible with your model.
 
 ### Preventing Future Drum Errors
 
-- Use genuine BROTHER toner and drum units.
+- Use genuine manufacturer toner and drum units.
 - Keep the printer in a clean, dust-free environment.
 - Reset the drum counter each time you replace the drum unit.
 
 <div class="blog-cta">
-  <h3>BROTHER Drum Error Still There?</h3>
-  <p>Our BROTHER printer specialists can help you remotely. Fix your drum error in minutes.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Remote Support</a>
+  <h3>Drum Error Still There?</h3>
+  <p>Visit your printer manufacturer's official support website for model-specific drum reset instructions and troubleshooting guides.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View All Printer Reviews</a>
 </div>"""
     },
-    "CANON Printer B200 Error – Step-by-Step Fix Guide": {
-        "categories": "CANON Troubleshooting",
-        "content": """The CANON printer B200 error is one of the most common and frustrating errors on CANON PIXMA and MAXIFY printers. This error indicates a printhead or ink system problem.
+    "Printer B200 Error – Step-by-Step Fix Guide": {
+        "categories": "Troubleshooting Guide",
+        "content": """The printer B200 error is one of the most common and frustrating errors on consumer and business printers. This error indicates a printhead or ink system problem.
 
-### What Causes CANON Error B200?
+### What Causes Error B200?
 
 Error B200 typically means:
 - **Printhead failure:** The printhead has malfunctioned or short-circuited.
 - **Ink system issue:** Air bubbles or clogged ink pathways.
 - **Mainboard communication error:** The printer cannot communicate with the printhead properly.
 
-### Step 1: Hard Reset Your CANON Printer
+### Step 1: Hard Reset Your Printer
 
 1. Turn off the printer and unplug it from power.
 2. Wait 10 minutes (this is important for capacitors to discharge).
@@ -157,14 +157,14 @@ Ink spills inside the printer can cause electrical shorts that trigger B200. Ope
 
 ### Step 4: Replace the Printhead
 
-If steps 1-3 don't work, the printhead is likely damaged. Replace it with a genuine CANON printhead (QY series compatible with your model).
+If steps 1-3 don't work, the printhead is likely damaged. Replace it with a genuine manufacturer printhead compatible with your model.
 
-> **Warning:** Never use third-party or refilled ink cartridges with CANON printers. They frequently cause the B200 error by damaging the printhead.
+> **Warning:** Never use third-party or refilled ink cartridges. They frequently cause the B200 error by damaging the printhead.
 
 <div class="blog-cta">
-  <h3>CANON B200 Error Not Fixed?</h3>
-  <p>Our CANON printer experts provide fast remote diagnosis and support. Contact us today.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Support Now</a>
+  <h3>B200 Error Not Fixed?</h3>
+  <p>Check your printer manufacturer's official support website for model-specific troubleshooting and the latest firmware updates.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View All Printer Reviews</a>
 </div>"""
     },
     "Printer Keeps Going Offline – Here's the Permanent Fix": {
@@ -205,58 +205,55 @@ Run these steps when the printer goes offline:
 
 ### Fix 5: Run Manufacturer Diagnostic Tool
 
-- **HP:** Run HP Print and Scan Doctor
-- **EPSON:** Run EPSON Print and Scan Utility
-- **BROTHER:** Run BROTHER Printer Setting Tool
-- **CANON:** Run CANON IJ Printer Assistant Tool
+- Run your printer manufacturer's diagnostic tool (check your printer's documentation or manufacturer website for the correct utility).
 
 <div class="blog-cta">
   <h3>Printer Still Going Offline?</h3>
-  <p>Get permanent remote printer support from our certified technicians. We fix it once and for all.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Permanent Fix</a>
+  <p>Check your printer manufacturer's official support website for model-specific troubleshooting guides and diagnostic tools.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View Printer Reviews</a>
 </div>"""
     },
-    "How to Connect EPSON Printer to WiFi – Wireless Setup Guide": {
+    "How to Connect Printer to WiFi – Wireless Setup Guide": {
         "categories": "Setup Guide",
-        "content": """Connecting your EPSON printer to WiFi allows you to print wirelessly from any device in your home or office. Here are three easy methods to set up your EPSON printer on your wireless network.
+        "content": """Connecting your printer to WiFi allows you to print wirelessly from any device in your home or office. Here are three easy methods to set up your printer on your wireless network.
 
 ### Method 1: Use WiFi Protected Setup (WPS)
 
 If your router has a WPS button, this is the fastest method:
 1. Press the **WPS button** on your router for 3-5 seconds until the light starts blinking.
-2. Within 2 minutes, press and hold the **WiFi button** on your EPSON printer for 3 seconds.
+2. Within 2 minutes, press and hold the **WiFi button** on your printer for 3 seconds.
 3. The printer will automatically connect to your network.
 4. The WiFi light will turn solid green when connected.
 
-### Method 2: Use EPSON Connect Setup
+### Method 2: Use the Printer's Wireless Setup Wizard
 
-For EPSON printers with a touchscreen:
+For printers with a touchscreen:
 1. Press the **Home** button and navigate to **WiFi Setup** or **Network Settings**.
 2. Select **Wireless LAN Setup** and choose **WiFi Setup Wizard**.
 3. Select your WiFi network from the list.
 4. Enter your WiFi password using the on-screen keyboard.
 5. Press **Start Setup** to connect.
 
-### Method 3: Use EPSON Smart Panel App
+### Method 3: Use Your Printer's Companion App
 
-Download the **EPSON Smart Panel** app from your phone's app store. The app will guide you through the wireless setup step by step and also helps with ink level monitoring and printer maintenance.
+Download your printer manufacturer's companion app from your phone's app store. The app will guide you through the wireless setup step by step and also helps with ink level monitoring and printer maintenance.
 
-### Troubleshooting EPSON WiFi Connection
+### Troubleshooting WiFi Connection
 
 - **Printer not finding network:** Move the printer closer to the router.
 - **Wrong password:** WiFi passwords are case-sensitive. Double-check.
-- **Network band:** EPSON printers work best on 2.4GHz networks.
+- **Network band:** Most printers work best on 2.4GHz networks.
 - **Router restart:** Unplug your router for 30 seconds and try again.
 
 <div class="blog-cta">
-  <h3>Stuck on EPSON WiFi Setup?</h3>
-  <p>Let our EPSON experts connect your printer to WiFi remotely. Fast support available.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Remote WiFi Help</a>
+  <h3>Stuck on WiFi Setup?</h3>
+  <p>Visit your printer manufacturer's official support site for detailed WiFi setup guides and connection troubleshooting.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View All Printer Reviews</a>
 </div>"""
     },
-    "HP Printer Paper Jam – How to Clear Properly": {
+    "Printer Paper Jam – How to Clear Properly": {
         "categories": "Troubleshooting",
-        "content": """Paper jams are one of the most common printer problems. While they seem simple, improper removal can damage your printer. Here's the correct way to clear paper jams in HP printers.
+        "content": """Paper jams are one of the most common printer problems. While they seem simple, improper removal can damage your printer. Here's the correct way to clear paper jams in any printer.
 
 ### Step 1: Turn Off the Printer
 
@@ -288,8 +285,8 @@ Ensure all doors and trays are closed securely. An open door will cause the prin
 
 <div class="blog-cta">
   <h3>Paper Jam Still Not Clearing?</h3>
-  <p>Our HP printer technicians can guide you through clearing the jam remotely. Get help now.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Help Now</a>
+  <p>Check your printer manufacturer's official support website for additional paper jam troubleshooting guides and maintenance tips.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View All Printer Reviews</a>
 </div>"""
     },
     "Printer Faded Prints – How to Fix Print Quality Issues Fast": {
@@ -306,15 +303,11 @@ Ensure all doors and trays are closed securely. An open door will cause the prin
 
 ### Fix 1: Check Ink or Toner Levels
 
-Open your printer software (HP Smart, EPSON Status Monitor, etc.) and check ink levels. If any cartridge is low, replace it with a genuine manufacturer cartridge.
+Open your printer software (your printer's companion app or status monitor) and check ink levels. If any cartridge is low, replace it with a genuine manufacturer cartridge.
 
 ### Fix 2: Run Printhead Cleaning
 
-Access the maintenance menu on your printer:
-- **HP:** Setup > Tools > Printhead Cleaning
-- **EPSON:** Maintenance > Head Cleaning
-- **CANON:** Maintenance > Cleaning
-- **BROTHER:** Ink > Cleaning
+Access the maintenance menu on your printer (consult your printer's manual for the exact menu path).
 
 Run the cleaning cycle 2-3 times, printing a nozzle check pattern after each attempt.
 
@@ -332,8 +325,8 @@ If cleaning doesn't work after 3-4 attempts, the printhead may need replacement.
 
 <div class="blog-cta">
   <h3>Print Quality Still Bad?</h3>
-  <p>Our technicians can diagnose and fix print quality issues remotely. Fast and affordable.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Fix My Print Quality</a>
+  <p>Check your printer manufacturer's official support site for advanced print quality troubleshooting guides.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View Printer Reviews</a>
 </div>"""
     },
     "How to Scan from Printer to Computer – Windows 11 Guide": {
@@ -351,10 +344,7 @@ Windows 11 has a built-in Scan app:
 
 ### Method 2: Use Manufacturer Software
 
-- **HP:** HP Smart app (download from Microsoft Store)
-- **EPSON:** EPSON Scan 2 or EPSON Smart Panel
-- **CANON:** CANON IJ Scan Utility
-- **BROTHER:** BROTHER iPrint&Scan
+- Download your printer manufacturer's scanning app from the Microsoft Store or their website (check your printer's documentation for the recommended scanning software).
 
 These apps provide more features like multi-page scanning, OCR, and cloud upload.
 
@@ -375,8 +365,8 @@ Place your document on the scanner glass, then on the printer's touchscreen:
 
 <div class="blog-cta">
   <h3>Having Scanner Issues?</h3>
-  <p>Our technicians can help you set up scanning remotely. Contact us for fast support.</p>
-  <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Scanner Help</a>
+  <p>Check your scanner manufacturer's official support website for scanning setup guides and troubleshooting.</p>
+  <a href="{{ site.baseurl }}/services/" class="btn btn-primary">View Printer Reviews</a>
 </div>"""
     },
     "Printer Error State Windows 11 – Fix in 5 Minutes": {
@@ -421,7 +411,7 @@ Windows 11 has a built-in troubleshooter:
 
 <div class="blog-cta">
   <h3>Printer Error State Not Fixed?</h3>
-  <p>Our remote printer support technicians can fix the error state in minutes. Contact us now.</p>
+  <p>Check your printer manufacturer's official support site for advanced troubleshooting and error state resolution guides.</p>
   <a href="{{ site.baseurl }}/contact/" class="btn btn-primary">Get Help Now</a>
 </div>"""
     },

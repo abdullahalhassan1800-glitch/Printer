@@ -3,39 +3,35 @@
     <div class="footer-grid">
       <div class="footer-col">
         <h4>{{ site.title }}</h4>
-        <p>{% if page.footer_variant == 'full' %}Your trusted partner for professional printer online support services across the USA. We provide fast, reliable remote assistance for HP, EPSON, BROTHER, and CANON printers.{% else %}Your trusted partner for professional HP printer online support services across the USA. We provide fast, reliable remote assistance for all HP printer models.{% endif %}</p>
+        <p>Your independent source for printer industry analysis, business printing comparisons, and enterprise printing guides. Helping IT teams choose the right printing infrastructure.</p>
       </div>
       <div class="footer-col">
         <h4>Quick Links</h4>
         <a href="{{ site.baseurl }}/">Home</a>
         <a href="{{ site.baseurl }}/about/">About Us</a>
-        <a href="{{ site.baseurl }}/services/">Services</a>
+        <a href="{{ site.baseurl }}/services/">Analysis</a>
         <a href="{{ site.baseurl }}/blog/">Blog</a>
         <a href="{{ site.baseurl }}/contact/">Contact</a>
       </div>
       <div class="footer-col">
-        {% if page.footer_variant == 'full' %}
-        <h4>Brands We Support</h4>
-        <a href="{{ site.baseurl }}/services/?brand=hp" {% if page.footer_brand_data %}class="brand-link" data-brand="hp"{% endif %}>HP Printers</a>
-        <a href="{{ site.baseurl }}/services/?brand=epson" {% if page.footer_brand_data %}class="brand-link" data-brand="epson"{% endif %}>EPSON Printers</a>
-        <a href="{{ site.baseurl }}/services/?brand=brother" {% if page.footer_brand_data %}class="brand-link" data-brand="brother"{% endif %}>BROTHER Printers</a>
-        <a href="{{ site.baseurl }}/services/?brand=canon" {% if page.footer_brand_data %}class="brand-link" data-brand="canon"{% endif %}>CANON Printers</a>
-        {% else %}
-        <h4>Legal</h4>
-        <a href="{{ site.baseurl }}/terms/">Terms &amp; Conditions</a>
-        <a href="{{ site.baseurl }}/privacy/">Privacy Policy</a>
-        {% endif %}
+        <h4>Printing Categories</h4>
+        <a href="{{ site.baseurl }}/services/">Enterprise Laser</a>
+        <a href="{{ site.baseurl }}/services/">Inkjet Business</a>
+        <a href="{{ site.baseurl }}/services/">Tank Systems</a>
+        <a href="{{ site.baseurl }}/services/">Multifunction Devices</a>
       </div>
       <div class="footer-col">
         <h4>Contact Info</h4>
-        <p><i class="fas fa-phone"></i> +1 (800) 123-4567</p>
-        <p><i class="fas fa-envelope"></i> info@printerandservices.com</p>
+        <p><i class="fas fa-phone-alt"></i> +1 828 356 5590</p>
+        <p><i class="fas fa-envelope"></i> info@printerandservices.pro</p>
         <p><i class="fas fa-map-marker-alt"></i> USA</p>
-        <p><i class="fas fa-clock"></i> Mon-Sun 8AM-10PM EST</p>
       </div>
     </div>
     <div class="footer-bottom">
-      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved. | <a href="{{ site.baseurl }}/terms/">Terms</a> | <a href="{{ site.baseurl }}/privacy/">Privacy</a></p>
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved. | <a href="{{ site.baseurl }}/terms/">Terms</a> | <a href="{{ site.baseurl }}/privacy/">Privacy</a> | <a href="https://printerandservices.pro" target="_blank" rel="noopener noreferrer">Printer Services Pro</a></p>
+    </div>
+    <div class="footer-disclaimer">
+      <p>Disclaimer: Printer Services Pro is an independent information and review website. We are not affiliated with, associated with, authorized by, endorsed by, or in any way officially connected with any printer manufacturers, third-party brands, or their subsidiaries (such as HP, Canon, Epson, Brother, Lexmark, or Xerox). All product names, logos, brands, trademarks, and registered trademarks mentioned on this website are the property of their respective owners. Their use on this website is solely for informational and identification purposes and does not imply any relationship, sponsorship, or endorsement. Visit us at <a href="https://printerandservices.pro" target="_blank" rel="noopener noreferrer">printerandservices.pro</a></p>
     </div>
   </div>
 </footer>

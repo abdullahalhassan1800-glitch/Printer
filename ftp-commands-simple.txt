@@ -1,0 +1,38 @@
+u817827921.ftp
+S3lfm@d3
+cd /
+lcd E:\Printer\_site
+prompt
+binary
+mput feed.xml
+mput index.html
+mput logo-removebg-preview.png
+mput robots.txt
+mput sitemap.xml
+
+cd /public_html
+lcd E:\Printer\_site
+prompt
+binary
+
+cd css
+lcd E:\Printer\_site\css
+mput *.css
+cd ..
+
+cd js
+lcd E:\Printer\_site\js
+mput *.js
+cd ..
+
+cd images
+lcd E:\Printer\_site\images
+mput *
+cd ..
+
+cd thank-you
+lcd E:\Printer\_site\thank-you
+mput index.html
+cd ..
+
+bye

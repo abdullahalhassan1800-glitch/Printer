@@ -1,41 +1,21 @@
 ---
 layout: default
-title: "Contact Us | Printer & Services - HP Printer Support USA"
-description: "Contact Printer & Services for HP printer online support. Call +1 (800) 123-4567, email us, or fill our contact form for quick assistance."
+title: "Contact Us | Printer Services Pro"
+description: "Contact Printer Services Pro for business inquiries, fleet analysis requests, feedback, or partnership opportunities."
 footer_variant: legal
 heading: "Contact Us"
-subtitle: "Get in touch for professional HP printer support"
+subtitle: "Get in touch with our team"
 schema: |
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      {
-        "@type": "Question",
-        "name": "How quickly will you respond to my HP printer support request?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "We typically respond within 15 minutes during business hours (8 AM - 10 PM EST, 7 days a week). Most HP printer issues are resolved within 15-20 minutes of connecting with a technician."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "Is your HP printer support available nationwide in the USA?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Yes, we provide remote HP printer support across all 50 states. Since our service is 100% online, we can assist customers anywhere in the United States without an in-person visit."
-        }
-      },
-      {
-        "@type": "Question",
-        "name": "What information do I need to provide for HP printer support?",
-        "acceptedAnswer": {
-          "@type": "Answer",
-          "text": "Please provide your HP printer model number, a description of the issue you are experiencing, and your computer's operating system (Windows 10/11 or macOS). This helps our technician diagnose the problem quickly."
-        }
-      }
-    ]
+    "@type": "ContactPage",
+    "name": "Contact Printer Services Pro",
+    "description": "Contact us for questions, feedback, or partnership inquiries.",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Printer Services Pro"
+    }
   }
   </script>
 ---
@@ -45,19 +25,19 @@ schema: |
     <div class="contact-grid">
       <div class="contact-info">
         <h2>Get In Touch</h2>
-        <p>Having trouble with your HP printer? Reach out to us and our expert team will help you resolve any issue quickly.</p>
+        <p>Have a question about our evaluations? Want to suggest a printer for review? Need fleet printing analysis for your business? Or interested in a partnership? We'd love to hear from you.</p>
         <div class="contact-detail">
           <div class="icon-wrap"><i class="fas fa-phone-alt"></i></div>
           <div>
-            <h4>Phone</h4>
-            <p>+1 (800) 123-4567</p>
+            <h4>Helpline</h4>
+            <p><a href="tel:+18283565590">+1 828 356 5590</a></p>
           </div>
         </div>
         <div class="contact-detail">
           <div class="icon-wrap"><i class="fas fa-envelope"></i></div>
           <div>
             <h4>Email</h4>
-            <p>info@printerandservices.com</p>
+            <p>info@printerandservices.pro</p>
           </div>
         </div>
         <div class="contact-detail">
@@ -67,17 +47,10 @@ schema: |
             <p>USA</p>
           </div>
         </div>
-        <div class="contact-detail">
-          <div class="icon-wrap"><i class="fas fa-clock"></i></div>
-          <div>
-            <h4>Hours</h4>
-            <p>Mon - Sun: 8 AM - 10 PM EST</p>
-          </div>
-        </div>
       </div>
       <div class="contact-form">
         <h3>Send Us a Message</h3>
-        <form id="contactForm">
+        <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" data-baseurl="{{ site.baseurl }}">
           <div class="form-group">
             <label for="name">Full Name</label>
             <input type="text" id="name" name="name" required>
@@ -87,19 +60,14 @@ schema: |
             <input type="email" id="email" name="email" required>
           </div>
           <div class="form-group">
-            <label for="phone">Phone Number</label>
-            <input type="tel" id="phone" name="phone">
-          </div>
-          <div class="form-group">
-            <label for="service">Service Needed</label>
-            <select id="service" name="service">
-              <option value="">Select a service...</option>
-              <option value="troubleshooting">HP Printer Troubleshooting</option>
-              <option value="driver">Driver Installation</option>
-              <option value="network">Wireless & Network Setup</option>
-              <option value="error">Error Code Resolution</option>
-              <option value="quality">Print Quality Fixes</option>
-              <option value="configuration">Printer Configuration</option>
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="">Select a topic...</option>
+              <option value="review">Suggest a Printer for Review</option>
+              <option value="fleet">Enterprise Fleet Analysis</option>
+              <option value="feedback">Feedback on Our Content</option>
+              <option value="partnership">Partnership Inquiry</option>
+              <option value="correction">Report an Error</option>
               <option value="other">Other</option>
             </select>
           </div>
@@ -118,21 +86,21 @@ schema: |
   <div class="container">
     <div class="section-header">
       <h2>Quick Questions?</h2>
-      <p>Find answers before reaching out</p>
+      <p>Common questions about Printer Services Pro</p>
       <div class="accent-line"></div>
     </div>
     <div class="faq-list">
       <div class="faq-item">
-        <button class="faq-question">How quickly will you respond to my HP printer support request?</button>
-        <div class="faq-answer">We typically respond within 15 minutes during business hours (8 AM - 10 PM EST, 7 days a week). Most HP printer issues are resolved within 15-20 minutes of connecting with a technician.</div>
+        <button class="faq-question">Do you sell printers or offer procurement services?</button>
+        <div class="faq-answer">No. We are an independent analysis and information website. We do not sell printers or accessories. Our guides help IT teams make informed procurement decisions.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-question">Is your HP printer support available nationwide in the USA?</button>
-        <div class="faq-answer">Yes, we provide remote HP printer support across all 50 states. Since our service is 100% online, we can assist customers anywhere in the United States without an in-person visit.</div>
+        <button class="faq-question">Can you help with fleet printer deployment?</button>
+        <div class="faq-answer">Our deployment guides provide step-by-step instructions for network setup, driver deployment, and printer configuration across workgroups. For hands-on technical help, we recommend contacting the printer manufacturer directly.</div>
       </div>
       <div class="faq-item">
-        <button class="faq-question">What information do I need to provide for HP printer support?</button>
-        <div class="faq-answer">Please provide your HP printer model number, a description of the issue you are experiencing, and your computer's operating system (Windows 10/11 or macOS). This helps our technician diagnose the problem quickly.</div>
+        <button class="faq-question">How can I suggest a printer for evaluation?</button>
+        <div class="faq-answer">Use the contact form above and select "Suggest a Printer for Review." Tell us the model and why you'd like us to evaluate it. We consider all suggestions from IT teams and businesses.</div>
       </div>
     </div>
   </div>
